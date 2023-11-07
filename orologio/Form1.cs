@@ -55,10 +55,12 @@ namespace orologio
                 cmbFuso.BackColor= Color.Sienna;
                 cmbOre.BackColor = Color.Sienna;
                 cmbMinuti.BackColor = Color.Sienna;
+                cmbSecondi.BackColor = Color.Sienna;
                 cmbColori.BackColor= Color.Sienna;
                 cmbFuso.ForeColor = Color.AntiqueWhite;
                 cmbOre.ForeColor = Color.AntiqueWhite;
                 cmbMinuti.ForeColor = Color.AntiqueWhite;
+                cmbSecondi.ForeColor = Color.AntiqueWhite;
                 cmbColori.ForeColor = Color.AntiqueWhite;
                 lblData.ForeColor = Color.AntiqueWhite;
                 lblFuso.ForeColor = Color.AntiqueWhite;
@@ -136,7 +138,18 @@ namespace orologio
                 BackColor = Color.White;
                 lblData.ForeColor = Color.Black;
                 lblFuso.ForeColor = Color.Black;
-                lblColori.ForeColor = Color.Black;
+                lblColori.ForeColor = Color.Black;              
+                cmbFuso.BackColor = Color.White;
+                cmbOre.BackColor = Color.White;
+                cmbMinuti.BackColor = Color.White;
+                cmbSecondi.BackColor = Color.White;
+                cmbColori.BackColor = Color.White;
+                cmbFuso.ForeColor = Color.Black;
+                cmbOre.ForeColor = Color.Black;
+                cmbMinuti.ForeColor = Color.Black;
+                cmbSecondi.ForeColor = Color.Black;
+                cmbColori.ForeColor = Color.Black;
+
 
                 Graphics g = this.CreateGraphics();
                 Graphics ellisse = this.CreateGraphics();
@@ -205,6 +218,16 @@ namespace orologio
                 lblData.ForeColor = Color.MediumBlue;
                 lblFuso.ForeColor = Color.MediumBlue;
                 lblColori.ForeColor = Color.MediumBlue;
+                cmbFuso.BackColor = Color.Fuchsia;
+                cmbOre.BackColor = Color.Fuchsia;  
+                cmbMinuti.BackColor = Color.Fuchsia;
+                cmbSecondi.BackColor = Color.Fuchsia;
+                cmbColori.BackColor = Color.Fuchsia;
+                cmbFuso.ForeColor = Color.MediumBlue;
+                cmbOre.ForeColor = Color.MediumBlue;
+                cmbMinuti.ForeColor = Color.MediumBlue;
+                cmbSecondi.ForeColor = Color.MediumBlue;
+                cmbColori.ForeColor = Color.MediumBlue;
 
                 Graphics g = this.CreateGraphics();
                 Graphics ellisse = this.CreateGraphics();
