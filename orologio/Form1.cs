@@ -60,9 +60,9 @@ namespace orologio
                 cmbOre.ForeColor = Color.AntiqueWhite;
                 cmbMinuti.ForeColor = Color.AntiqueWhite;
                 cmbColori.ForeColor = Color.AntiqueWhite;
-                lblData.ForeColor = Color.White;
-                lblFuso.ForeColor = Color.White;
-                lblColori.ForeColor = Color.White;
+                lblData.ForeColor = Color.AntiqueWhite;
+                lblFuso.ForeColor = Color.AntiqueWhite;
+                lblColori.ForeColor = Color.AntiqueWhite;
                 cmbFuso.BackColor = Color.Sienna;
                 Graphics g = this.CreateGraphics();
                 Graphics ellisse = this.CreateGraphics();
